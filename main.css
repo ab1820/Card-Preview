@@ -33,4 +33,18 @@ p {
     color: var(--fontColor);
 }
 
+/* Main Styles Section */
+
+.main-card {
+    display: flex;
+    /* max-width: 100vw;
+    min-width: 100vw; */
+}
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+    .main-card {
+    max-width: 375px;
+    }
+}
+
 
