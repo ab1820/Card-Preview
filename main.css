@@ -97,8 +97,26 @@ h1 {
 .secondary-price {
     float: right;
     padding-right: 150px;
-    margin-top: -55px;
+    margin-top: -56px;
     text-decoration: line-through;
+}
+
+.btn {
+    margin: auto;
+    display: flex;
+    background-color: var(--pricing);
+    border: none;
+    font-weight: bold;
+    color: var(--background);
+    padding: 17px 110px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: -13px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.fa-solid {
+    padding-right: 10px;
 }
 
 @media screen and (min-width: 800px) {
