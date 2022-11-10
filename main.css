@@ -69,7 +69,6 @@ p {
     font-size: 12px;
     padding-top: 1.1em;
     padding-left: 1.8em;
-    padding-bottom: ;
 }
 
 h1 {
@@ -80,6 +79,14 @@ h1 {
     width: 350px;
     margin-top: 0px;
     line-height: 1;
+}
+
+.main-content {
+    text-align: left;
+    line-height: 1.8em;
+    width: 350px;
+    padding-left: 1.8em;
+    margin-top: -12px;
 }
 
 @media screen and (min-width: 800px) {
