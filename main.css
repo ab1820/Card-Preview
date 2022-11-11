@@ -107,7 +107,7 @@ h1 {
     background-color: var(--pricing);
     border: none;
     font-weight: bold;
-    color: var(--background);
+    color: var(--cardbackground);
     padding: 17px 110px;
     border-radius: 10px;
     margin-bottom: 25px;
@@ -121,6 +121,54 @@ h1 {
 
 @media screen and (min-width: 800px) {
     /* Desktop styles go here */
+    .main-card {
+        display: flex;
+        flex-direction: row;
+        max-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .image {
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        width: 100vw;
+        height: 55vh;
+    }
+    .content {
+        height: 55vh;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 0;
+    }
+    .title {
+        padding-top: 20px;
+        padding-left: 36px;
+    }
+    h1 {
+        padding-left: 33px;
+        padding-top: 10px;
+        width: 250px;
+    }
+    .main-content {
+        padding-top: 7px;
+        width: 270px;
+        margin-right: 40px;
+        padding-left: 38px;
+    }
+    .primary-price {
+        padding-left: 38px;
+    }
+    .secondary-price {
+        padding-right: 70px;
+    }
+    .btn {
+        padding: 17px 65px;
+        margin-top: -9px;
+        margin-left: 38px;
+        color: var(--cardBackground);
+    }
   }
 
 
