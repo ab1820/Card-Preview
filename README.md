@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://ab1820.github.io/Card-Preview/))
+- Live Site URL: https://ab1820.github.io/Card-Preview/
 
 ## My process
 
