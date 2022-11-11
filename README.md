@@ -17,6 +17,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
+<strong>NOTICE!! - When trying to load the live site on Firefox, for some reason it is having troubles finding the main.css file. To preview the live site working correctly, please try Chrome, or Microsoft Edge! Thanks!!</strong>
+
 ### The challenge
 
 Users should be able to:
