@@ -161,20 +161,23 @@ h1 {
     }
     .main-content {
         padding-top: 7px;
-        width: 270px;
-        margin-right: 40px;
+        width: 298px;
         padding-left: 38px;
     }
     .primary-price {
         padding-left: 38px;
+        margin-bottom: 0;
+        padding-top: 0;
+        margin-top: 23px;
     }
     .secondary-price {
-        padding-right: 70px;
+        padding-right: 57px;
+        margin-top: -29px;
     }
     .btn {
         padding: 17px 65px;
-        margin-top: -9px;
-        margin-left: 38px;
+        margin-top: 27px;
+        margin-left: 33px;
         color: var(--cardBackground);
     }
     .btn:hover {
